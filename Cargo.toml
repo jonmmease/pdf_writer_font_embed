@@ -1,0 +1,14 @@
+[package]
+name = "pdf_writer_font_embed"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pdf-writer = "0.8.1"
+fontdb = "0.14.1"
+ttf-parser = "0.19.1"
+subsetter = "0.1.1"
+miniz_oxide = "0.7.1"
+siphasher = "0.3.10"
